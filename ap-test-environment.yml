@@ -1,0 +1,12 @@
+name: AP-Study-Env
+channels:
+  - defaults
+dependencies:
+  - python=3.10.9
+  - pip:
+    - digautoprofiler>=0.2.8
+    - diginlineprofiler>=0.1.0
+    - jupyterlab==3.6.1
+    - pip==22.3.1
+    - pyarrow>=11.0.0
+    - statsmodels
